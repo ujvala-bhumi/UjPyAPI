@@ -1,17 +1,20 @@
 # UjPyAPI
 Rest API using django
 
-###Prerequisites
+##Prerequisites
+
 Python
 django
 djangorestframework
 
-###Commands to build your own API
+##Commands to build your own API 
+
 django-admin startproject WebApp
 cd WebApp
 python manage.py startApp myApi
 
-###recommended commands after clone
+##recommended commands after clone
+
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
